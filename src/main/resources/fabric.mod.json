@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "arkoniusessentails",
+  "version": "${version}",
+
+  "name": "ArkoniusEssentails",
+  "description": "Mod zum vereinfachen des Spiels auf Arkonius.de",
+  "authors": [
+    "Krisp"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.krisp.arkoessentails.ArkoEssentails"
+    ]
+  },
+  "mixins": [
+    "arkoessentails.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
