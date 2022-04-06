@@ -1,7 +1,6 @@
 package de.krisp.arkoessentails.mixin;
 
 import com.mojang.authlib.GameProfile;
-import de.krisp.arkoessentails.ArkoEssentails;
 import de.krisp.arkoessentails.commands.CommandManager;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
@@ -29,19 +28,13 @@ public class PlayerEntityMixin extends AbstractClientPlayerEntity {
             cancellable = true)
     private void onSendChatMessage(String message, CallbackInfo ci)
     {
-        ArkoEssentails.LOGGER.info("CHAT : Player has send following Message = " + message);
-
         if(CommandManager.ExecuteCommand(message)) {
             ci.cancel();
         } else {
-
             ChatMessageC2SPacket packet =
                     new ChatMessageC2SPacket(message);
             networkHandler.sendPacket(packet);
             ci.cancel();
         }
     }
-
-
-
 }

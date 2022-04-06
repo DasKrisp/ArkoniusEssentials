@@ -26,10 +26,10 @@ public class CheckItemdamageFunction {
                         int MaxDamage = MinecraftClient.getInstance().player.getInventory().getMainHandStack().getMaxDamage();
                         int Durability = MaxDamage - Damage;
 
-                        ArkoEssentails.LOGGER.info("Durability of your MainHand Item " + Durability);
+                        ArkoEssentails.LOGGER.debug("Durability of your MainHand Item " + Durability);
 
-                        if (Durability <= MaxDamage / 4) {
-                            ArkoEssentails.LOGGER.info("The Durability of your MainHand item is low. Send repair command");
+                        if (Durability <= MaxDamage / 4 && Durability != 0) {
+                            ArkoEssentails.LOGGER.debug("The Durability of your MainHand item is low. Send repair command");
                             MinecraftClient.getInstance().player.sendChatMessage("/repair");
                             MinecraftClient.getInstance().player.playSound(SoundEvents.ENTITY_ARROW_HIT_PLAYER, 100, 0);
                         }
