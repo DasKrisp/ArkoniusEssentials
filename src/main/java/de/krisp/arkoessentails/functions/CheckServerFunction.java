@@ -23,8 +23,8 @@ public class CheckServerFunction  {
                     if (MinecraftClient.getInstance().player != null) {
                         MinecraftClient.getInstance().player.playSound(SoundEvents.ENTITY_ARROW_HIT_PLAYER, 100, 0);
                         MinecraftClient.getInstance().player.sendChatMessage("/fly");
-                        MinecraftClient.getInstance().player.sendChatMessage("/hunger");
-                        ArkoEssentails.LOGGER.debug("executed /fly and /hunger!");
+                        MinecraftClient.getInstance().player.sendChatMessage("/feed");
+                        ArkoEssentails.LOGGER.debug("executed /fly and /feed!");
                         enabled = false;
                     }
                 }
