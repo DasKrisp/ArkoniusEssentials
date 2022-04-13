@@ -28,10 +28,14 @@ public class CheckItemdamageFunction {
 
                         ArkoEssentails.LOGGER.debug("Durability of your MainHand Item " + Durability);
 
-                        if (Durability <= MaxDamage / 4 && Durability != 0) {
-                            ArkoEssentails.LOGGER.debug("The Durability of your MainHand item is low. Send repair command");
-                            MinecraftClient.getInstance().player.sendChatMessage("/repair");
-                            MinecraftClient.getInstance().player.playSound(SoundEvents.ENTITY_ARROW_HIT_PLAYER, 100, 0);
+                        if (Durability <= MaxDamage / 4 && MinecraftClient.getInstance().player.getInventory().getMainHandStack().getItem().isDamageable() && Durability != 0) {
+                            if (!(MinecraftClient.getInstance().getCurrentServerEntry() == null)) {
+                                if (MinecraftClient.getInstance().getCurrentServerEntry().address.equalsIgnoreCase("arkonius.de")) {
+                                    ArkoEssentails.LOGGER.debug("The Durability of your MainHand item is low. Send repair command");
+                                    MinecraftClient.getInstance().player.sendChatMessage("/repair");
+                                    MinecraftClient.getInstance().player.playSound(SoundEvents.ENTITY_ARROW_HIT_PLAYER, 100, 0);
+                                }
+                            }
                         }
                     }
                 }
