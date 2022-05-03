@@ -1,7 +1,15 @@
-package de.krisp.arkoessentails.mixin;
+/*
+ * Copyright (c) 2022 DasKrisp
+ *
+ * This source code is subject to the terms of the GNU General Public
+ * License, version 3. If a copy of the GPL was not distributed with this file,
+ * You can obtain one at: https://www.gnu.org/licenses/
+ */
 
-import de.krisp.arkoessentails.functions.CheckItemdamageFunction;
-import de.krisp.arkoessentails.functions.CheckServerFunction;
+package de.krisp.arkoessentials.mixin;
+
+import de.krisp.arkoessentials.functions.CheckItemdamageFunction;
+import de.krisp.arkoessentials.functions.CheckServerFunction;
 import net.minecraft.client.gui.screen.ConnectScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
