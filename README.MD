@@ -30,8 +30,8 @@ Folgende Funktionen bietet die Modifikation bisher:
 
 ## Erstellt mit
 
-IntellIJ IDEA
-Fabric API for Minecraft 1.18.2
+- IntellIJ IDEA
+- Fabric API for Minecraft 1.18.2
 
 ## ArkoEssentials installieren
 
