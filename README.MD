@@ -18,7 +18,7 @@
 
 ![Downloads](https://img.shields.io/github/downloads/DasKrisp/ArkoniusEssentials/total) ![Stargazers](https://img.shields.io/github/stars/DasKrisp/ArkoniusEssentials?style=social) ![Issues](https://img.shields.io/github/issues/DasKrisp/ArkoniusEssentials) ![License](https://img.shields.io/github/license/DasKrisp/ArkoniusEssentials)
 
-## About The Project
+## Über das Projekt
 
 ![Screen Shot](images/screenshot.png)
 
@@ -28,15 +28,16 @@ Folgende Funktionen bietet die Modifikation bisher:
 - Automatisches reparieren, wenn Werkzeuge fast kaputt sind.
 - Aktiviert beim Betreten des Servers automatisch Fly und stillt den Hunger.
 
-## Built With
+## Erstellt mit
 
+IntellIJ IDEA
 Fabric API for Minecraft 1.18.2
 
-## Getting Started
+## ArkoEssentials installieren
 
 So kannst du ArkoniusEssentials installieren.
 
-### Prerequisites
+### Vorbereitungen
 
 Um die Modifikation ausführen zu können benötigst du :
 - Die neuste Fabric Modloader Version für 1.18.2 (https://fabricmc.net/use/installer/)
@@ -49,9 +50,9 @@ Um die Modifikation ausführen zu können benötigst du :
 - Führe dafür die Datei, aus die du heruntergeladen hast.
 
 2. Füge die Mods hinzu.
-- Packe die vorhin heruntergeladenen Mods (ArkoniusEssentials, Fabric API) in den Mods ordner hinzu den du im normalfall bei %AppData%\.minecraft\ findest.
+- Packe die vorhin heruntergeladenen Mods (ArkoniusEssentials, Fabric API) in den Mods ordner, den du im normalfall bei %AppData%\.minecraft\ findest.
 
-## Usage
+## Verwendungszwecke
 
 Verwendungsbeispiele auf dem Arkonius.de Minecraft Server:
 - Wenn du ein Plot aushüllst und nicht darauf achten willst, ob deine Tools kaputtgehen.
@@ -63,4 +64,4 @@ Verwendungsbeispiele auf dem Arkonius.de Minecraft Server:
 
 ## License
 
-This repository is subject to the terms of the GNU General Public License, version 3. If a copy of the GPL was not distributed with this file, look into LICENSE.MD for more details.
+This repository is subject to the terms of the GNU General Public License, version 3. Take a look into LICENSE.MD for more details.
