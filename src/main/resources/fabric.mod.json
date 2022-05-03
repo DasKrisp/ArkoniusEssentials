@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "arkoniusessentails",
+  "id": "arkoniusessentials",
   "version": "${version}",
 
-  "name": "ArkoniusEssentails",
+  "name": "ArkoniusEssentials",
   "description": "Mod zum vereinfachen des Spiels auf Arkonius.de",
   "authors": [
     "Krisp"
@@ -13,17 +13,17 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "MIT",
+  "license": "GNU GPL v3",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.krisp.arkoessentails.ArkoEssentails"
+      "de.krisp.arkoessentials.ArkoEssentials"
     ]
   },
   "mixins": [
-    "arkoessentails.mixins.json"
+    "arkoessentials.mixins.json"
   ],
 
   "depends": {
