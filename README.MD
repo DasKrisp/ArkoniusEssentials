@@ -1,22 +1,22 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/DasKrisp/ArkoniusEssentials">
+  <a href="https://github.com/DasKrisp/ArkoEssentials">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">ArkoniusEssentials</h3>
+<h3 align="center">ArkoEssentials</h3>
 
   <p align="center">
-    <big>ArkoniusEssentials (ArkoEssentials) ist eine Fabric Modloader Modifikation für den Minecraft Server Arkonius.de</big>
+    <big>ArkoEssentials (ArkoEssentials) ist eine Fabric Modloader Modifikation für den Minecraft Server Arkonius.de</big>
     <br/>
-    <code>ArkoniusEssentials ist nicht vom Offiziellen Arkonius.de Serverteam entwickelt worden!</code>
+    <code>ArkoEssentials ist nicht vom Offiziellen Arkonius.de Serverteam entwickelt worden!</code>
     <br/>
-    <a href="https://github.com/DasKrisp/ArkoniusEssentials/issues">Report Bug</a>
+    <a href="https://github.com/DasKrisp/ArkoEssentials/issues">Report Bug</a>
     .
-    <a href="https://github.com/DasKrisp/ArkoniusEssentials/issues">Request Feature</a>
+    <a href="https://github.com/DasKrisp/ArkoEssentials/issues">Request Feature</a>
   </p>
 
-![Downloads](https://img.shields.io/github/downloads/DasKrisp/ArkoniusEssentials/total) ![Stargazers](https://img.shields.io/github/stars/DasKrisp/ArkoniusEssentials?style=social) ![Issues](https://img.shields.io/github/issues/DasKrisp/ArkoniusEssentials) ![License](https://img.shields.io/github/license/DasKrisp/ArkoniusEssentials)
+![Downloads](https://img.shields.io/github/downloads/DasKrisp/ArkoEssentials/total) ![Stargazers](https://img.shields.io/github/stars/DasKrisp/ArkoEssentials?style=social) ![Issues](https://img.shields.io/github/issues/DasKrisp/ArkoEssentials) ![License](https://img.shields.io/github/license/DasKrisp/ArkoEssentials)
 
 ## Über das Projekt
 
@@ -42,7 +42,7 @@ So kannst du ArkoniusEssentials installieren.
 Um die Modifikation ausführen zu können benötigst du :
 - Die neuste Fabric Modloader Version für 1.18.2 (https://fabricmc.net/use/installer/)
 - Die Fabric API für 1.18.2 (https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-- Die neuste Version von ArkoniusEssentails (https://github.com/DasKrisp/ArkoniusEssentials/tree/master/builds)
+- Die neuste Version von ArkoniusEssentails (https://github.com/DasKrisp/ArkoEssentials/tree/master/builds)
 
 ### Installation
 
