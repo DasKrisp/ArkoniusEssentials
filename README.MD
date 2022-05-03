@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/Krisp/ArkoniusEssentials">
+  <a href="https://github.com/DasKrisp/ArkoniusEssentials">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,9 +11,9 @@
     <br/>
     <code>ArkoniusEssentials ist nicht vom Offiziellen Arkonius.de Serverteam entwickelt worden!</code>
     <br/>
-    <a href="https://github.com/Krisp/ArkoniusEssentials/issues">Report Bug</a>
+    <a href="https://github.com/DasKrisp/ArkoniusEssentials/issues">Report Bug</a>
     .
-    <a href="https://github.com/Krisp/ArkoniusEssentials/issues">Request Feature</a>
+    <a href="https://github.com/DasKrisp/ArkoniusEssentials/issues">Request Feature</a>
   </p>
 
 ![Downloads](https://img.shields.io/github/downloads/DasKrisp/ArkoniusEssentials/total) ![Stargazers](https://img.shields.io/github/stars/DasKrisp/ArkoniusEssentials?style=social) ![Issues](https://img.shields.io/github/issues/DasKrisp/ArkoniusEssentials) ![License](https://img.shields.io/github/license/DasKrisp/ArkoniusEssentials)
