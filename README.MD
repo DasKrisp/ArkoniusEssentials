@@ -4,10 +4,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">ArkoEssentials</h3>
+<h3 align="center">ArkoniusEssentials</h3>
 
   <p align="center">
-    <big>ArkoEssentials (ArkoEssentials) ist eine Fabric Modloader Modifikation für den Minecraft Server Arkonius.de</big>
+    <big>ArkoniusEssentials (aka. ArkoEssentials) ist eine Fabric Modloader Modifikation für den Minecraft Server Arkonius.de</big>
     <br/>
     <code>ArkoEssentials ist nicht vom Offiziellen Arkonius.de Serverteam entwickelt worden!</code>
     <br/>
